@@ -1,0 +1,98 @@
+<templateSet group="laravel">
+  <template name="response-json" value="Response::json($END$);" description="Response::json()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="clock-info" value="\Clockwork::info($END$);" description="Clockwork::info" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="route-post" value="Route::post('$PATH$', [&#10;&#9;'uses' =&gt; '$CONTROLLER$',&#10;&#9;'as'   =&gt; '$NAME$'&#10;]);$END$" description="Route::post" toReformat="true" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="route-get" value="Route::get('$PATH$', [&#10;&#9;'uses' =&gt; '$CONTROLLER$',&#10;&#9;'as'   =&gt; '$NAME$'&#10;]);$END$" description="Route::get();" toReformat="true" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTROLLER" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="schema-table" value="Schema::table('$TABLENAME$', function(Blueprint $table) {&#10;&#9;$table-&gt;$END$;&#10;});" description="Schema::table" toReformat="true" toShortenFQNames="true">
+    <variable name="TABLENAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="schema-create" value="Schema::create('$TABLENAME$', function(Blueprint $table) {&#10;&#9;$table-&gt;$END$;&#10;});" description="Schema::create" toReformat="false" toShortenFQNames="true">
+    <variable name="TABLENAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pubs" value="public function scope$FUNCTION$($q)&#10;{&#10;&#9;return $q-&gt;$END$;&#10;}" description="public function scope" toReformat="false" toShortenFQNames="true">
+    <variable name="FUNCTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pub-get-att" value="public function get$NAME1$Attribute($value)&#10;{&#10;&#9;return $value$;&#10;}" description="getAttribute" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="table-int-null" value="$table-&gt;integer('$NAME$')-&gt;unsigned()-&gt;nullable()$END1$;$END2$" description="$table-&gt;null" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="END1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="END2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="table-int-default" value="$table-&gt;integer('$NAME$')-&gt;unsigned()-&gt;default($END$);$END2$" description="table-int-default" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="END2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="table-string-null" value="$table-&gt;string($NAME$)-&gt;nullable()$END1$;$END2$" description="table-string-null" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="END1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="END2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="table-string-default" value="$table-&gt;string($NAME$)-&gt;default($VAL$)$END1$;$END2$" description="table-string-default" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="END1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="END2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="route-group" value="Route::group([ $PRXFIX$ ], function() {&#10;&#9;$EDN$&#10;});" description="Route::group" toReformat="false" toShortenFQNames="true">
+    <variable name="PRXFIX" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="EDN" expression="" defaultValue="#Coding Here" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rgf" value="Route::get('$PATH$', function(){&#10;&#10;});$END$" description="Route::get(function)" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
