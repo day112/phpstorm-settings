@@ -1,9 +1,6 @@
 <application>
   <component name="UmlConfiguration">
-    <option name="categories">
-      <map>
-        <entry id="PHP" categories="Fields;Constants;Constructors;Methods" />
-      </map>
-    </option>
+    <option name="fitContentAfterLayout" value="true" />
+    <option name="layout" value="DIRECTED_ORTHOGONAL" />
   </component>
 </application>

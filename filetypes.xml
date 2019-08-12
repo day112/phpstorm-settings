@@ -1,12 +1,38 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping pattern=".gitignore_global" type="Git file" />
-      <mapping pattern="1" type="PLAIN_TEXT" />
-      <mapping pattern="Device" type="PLAIN_TEXT" />
-      <mapping pattern="npm" type="PLAIN_TEXT" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeeper" type="PLAIN_TEXT" />
+      <mapping pattern="wrL30ExZRFd6lVGEzEhji5ky7IymXpe8JVlHOKOj" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="WxR1xZTteXlqqzmxwz2iSV50kOXaAvcAnw9Xcq1V" type="PLAIN_TEXT" />
+      <mapping pattern="php-cs-fixer" type="PLAIN_TEXT" />
+      <mapping pattern=".gitingore" type="PLAIN_TEXT" />
+      <mapping pattern="adsfas" type="PLAIN_TEXT" />
+      <mapping pattern="按发送到发送到分" type="PLAIN_TEXT" />
+      <mapping pattern="49uWBAc4984n37EPD9OaDG3bQ4MZyzB9WbAAHkfi" type="PLAIN_TEXT" />
+      <mapping pattern=".env" type="PLAIN_TEXT" />
+      <mapping pattern="2121" type="PLAIN_TEXT" />
       <mapping pattern=".php_cs" type="PLAIN_TEXT" />
-      <mapping ext="me" type="PLAIN_TEXT" />
+      <mapping ext="bk" type="PLAIN_TEXT" />
+      <mapping ext="ttf" type="PLAIN_TEXT" />
+      <mapping ext="stub" type="PLAIN_TEXT" />
+      <mapping ext="used" type="PLAIN_TEXT" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="t" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".gitattributes" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="makefile" approved="true" type="textmate" />
+      <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="snakefile" approved="true" type="textmate" />
+      <removed_mapping pattern=".gitconfig" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern=".gitignore_global" type="Git file" />
     </extensionMap>
   </component>
 </application>
