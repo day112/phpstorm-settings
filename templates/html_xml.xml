@@ -1,0 +1,15 @@
+<templateSet group="html/xml">
+  <template name="scriptSrc" value="&lt;script type=&quot;text/javascript&quot; src=&quot;$End$&quot;&gt;&lt;/script&gt; " description="script" toReformat="false" toShortenFQNames="true">
+    <variable name="End" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="csslink" value="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;$END$&quot; /&gt;" description="&lt;link ..." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
